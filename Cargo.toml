@@ -1,7 +1,7 @@
 [package]
 name = "godot-doc-rs"
-version = "0.1.0"
 authors = ["Diane Golfouse"]
+version = "0.0.1"
 edition = "2018"
 
 [dependencies]
