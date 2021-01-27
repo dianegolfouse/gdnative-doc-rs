@@ -5,6 +5,7 @@ version = "0.0.1"
 edition = "2018"
 
 [workspace]
+exclude = ["example"]
 
 [dependencies]
 gdnative-doc = { path = "gdnative-doc" }
