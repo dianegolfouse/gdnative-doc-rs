@@ -3,6 +3,7 @@ name = "godot-doc-rs"
 authors = ["Diane Golfouse"]
 version = "0.0.1"
 edition = "2018"
+license = "MIT"
 
 [workspace]
 exclude = ["example"]

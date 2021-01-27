@@ -3,6 +3,7 @@ name = "gdnative-doc"
 version = "0.0.1"
 authors = ["Diane Golfouse"]
 edition = "2018"
+license = "MIT"
 
 [dependencies]
 cargo_metadata = "0.12"
