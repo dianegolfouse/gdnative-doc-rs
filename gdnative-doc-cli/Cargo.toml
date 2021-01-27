@@ -1,0 +1,13 @@
+[package]
+name = "gdnative-doc-cli"
+version = "0.0.1"
+description = "Command line utility for gdnative-doc"
+authors = ["Diane Golfouse"]
+repository = "https://github.com/dianegolfouse/godot-doc-rs/"
+readme = "README.md"
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+gdnative-doc = { path = "..", version = "0.0.1" }
+clap = "2.33"

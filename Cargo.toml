@@ -1,19 +1,31 @@
 [package]
-name = "godot-doc-rs"
+name = "gdnative-doc"
 authors = ["Diane Golfouse"]
 version = "0.0.1"
-description = "Command line utility for gdnative-doc"
+description = "Documentation tool for gdnative"
 repository = "https://github.com/dianegolfouse/godot-doc-rs/"
 readme = "README.md"
 edition = "2018"
 license = "MIT"
 
 [workspace]
+members = ["gdnative-doc-cli"]
+default-members = ["gdnative-doc-cli"]
 exclude = ["example"]
 
 [dependencies]
-gdnative-doc = { path = "gdnative-doc" }
-clap = "2.33"
+cargo_metadata = "0.12"
+log = { version = "0.4", features = ["std"] }
+pulldown-cmark = { version = "0.8", default-features = false }
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+simplelog = "0.9"
+syn = { version = "1.0", default-features = false, features = ["parsing", "full", "visit"] }
+thiserror = "1.0"
+toml = "0.5"
+
+# Make toml config parsing optional ?
+#[features]
+#default = ["toml"]
 
 [profile.release]
 lto = true
