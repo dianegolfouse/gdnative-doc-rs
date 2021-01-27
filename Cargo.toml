@@ -2,6 +2,9 @@
 name = "godot-doc-rs"
 authors = ["Diane Golfouse"]
 version = "0.0.1"
+description = "Command line utility for gdnative-doc"
+repository = "https://github.com/dianegolfouse/godot-doc-rs/"
+readme = "README.md"
 edition = "2018"
 license = "MIT"
 
