@@ -1,7 +1,7 @@
 [package]
 name = "gdnative-doc"
 authors = ["Diane Golfouse"]
-version = "0.0.2"
+version = "0.0.3"
 description = "Documentation tool for gdnative"
 repository = "https://github.com/dianegolfouse/gdnative-doc-rs/"
 readme = "README.md"
