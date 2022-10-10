@@ -5,7 +5,7 @@ description = "Command line utility for gdnative-doc"
 authors = ["Diane Golfouse"]
 repository = "https://github.com/dianegolfouse/gdnative-doc-rs/"
 readme = "README.md"
-edition = "2018"
+edition = "2021"
 license = "MIT"
 
 [dependencies]

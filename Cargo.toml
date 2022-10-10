@@ -5,7 +5,7 @@ version = "0.0.5"
 description = "Documentation tool for gdnative"
 repository = "https://github.com/dianegolfouse/gdnative-doc-rs/"
 readme = "README.md"
-edition = "2018"
+edition = "2021"
 license = "MIT"
 
 [workspace]
@@ -22,6 +22,7 @@ syn = { version = "1.0.102", default-features = false, features = [
 	"parsing",
 	"full",
 	"visit",
+	"clone-impls",
 ] }
 thiserror = "1.0.37"
 toml = "0.5.9"
